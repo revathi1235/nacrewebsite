@@ -7,6 +7,7 @@ import improveresouceutilisation from '../Assets/Improveresourceutilisation.svg'
 import efficiency from '../Assets/Efficiency.svg'
 import improvedorderaccuracy from '../Assets/improvedorderaccuracy.svg'
 import { useNavigate } from "react-router-dom";
+import Footer from '../components/Footer'
 
 function Pickmanagement() {
   const navigate=useNavigate()
@@ -147,12 +148,12 @@ const handlePurveywms=()=>{
   <div className='valuedelivered-firstdiv-pickmanagement'>
     <img src={improveresouceutilisation} alt="" />
     <h6>Advanced Order Allocation</h6>
-    <p >Our discrete picking module in PURVEY incorporates advanced algorithms to intelligently allocate orders to the most suitable pickers. Picklists are generated considering factors such as location, optimized pick sequencing, priority and picker availability. Our system ensures optimal resource utilization and minimizes travel time within the warehouse. This leads to faster order fulfilment and increased operational efficiency.</p>
+    <p >Our discrete picking module in PURVEY  intelligently allocate orders to the most suitable pickers. Picklists are generated considering factors such as location, optimized pick sequencing, priority and picker availability. Our system ensures optimal resource utilization and minimizes travel time within the warehouse. This leads to faster order fulfilment and increased operational efficiency.</p>
   </div>
   <div className='valuedelivered-seconddiv-pickmanagement'>
     <img src={efficiency} alt="" />
     <h6>Barcode and RFID Integration </h6>
-    <p>To ensure efficient and accurate item identification during the picking process, we seamlessly integrate barcode and RFID technologies into our WMS. These technologies enable real-time inventory visibility, minimize the risk of picking errors, and enhance overall inventory accuracy. With our integrated solutions, you can effectively track and manage your inventory, reducing stockouts and improving order fulfilment rates.
+    <p>To ensure efficient and accurate item identification during the picking process, we seamlessly integrate barcode and RFID technologies into our WMS. These technologies enable real-time inventory visibility, minimize the risk of picking errors, and enhance overall inventory accuracy. With our integrated solutions inventory, reducing stockouts and improving order fulfilment rates.
 
 </p>
   </div>
@@ -224,7 +225,7 @@ const handlePurveywms=()=>{
 
   </div>
 
-
+<Footer/>
     </div>
   )
 }

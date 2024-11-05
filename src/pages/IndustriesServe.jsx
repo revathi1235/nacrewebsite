@@ -9,19 +9,19 @@ function IndustriesServe() {
     <Container >
     <div class="image-container">
     <div class="image-item">
-    <img src="../Assets/cpg.jpg" alt="" />
+    <img src="../Assets/cpg.jpg" alt="" className='ms-5' />
     <span>FMCG</span>
   </div>
   <div class="image-item">
-    <img src="../Assets/FB.jpg" alt="" />
+    <img src="../Assets/FB.jpg" alt=""  className='ms-5' />
     <span>F & B</span>
   </div>
   <div class="image-item">
-    <img src="../Assets/apparel.jpg" alt="" />
+    <img src="../Assets/apparel.jpg" alt=""  className='ms-5' />
     <span>Apparel</span>
   </div>
   <div class="image-item">
-    <img src="../Assets/pharma.PNG" alt="" />
+    <img src="../Assets/pharma.PNG" alt=""  className='ms-5' />
     <span>Pharma</span>
   </div>
  

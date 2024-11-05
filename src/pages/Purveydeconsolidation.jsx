@@ -7,6 +7,7 @@ import improveresouceutilisation from '../Assets/Improveresourceutilisation.svg'
 import efficiency from '../Assets/Efficiency.svg'
 import improvedorderaccuracy from '../Assets/improvedorderaccuracy.svg'
 import { useNavigate } from "react-router-dom";
+import Footer from '../components/Footer'
 
 function Purveydeconsolidation() {
   const navigate=useNavigate()
@@ -47,8 +48,8 @@ const handlePurveywms=()=>{
     <div>
       <div style={{height:"40vh"}}>
  <div className='starting-picklistgeneration'>
-    <h1 className="gradient-text">Maximize Efficiency with Expert Deconsolidation Solutions
-    <br /></h1>
+    <h2 className="gradient-text">Maximize Efficiency with Expert Deconsolidation 
+    <br /></h2>
     {/* <h3 className="gradient-text">Across All Touchpoints.</h3> */}
 
     <div className='aboutpage-subtitle'>
@@ -158,7 +159,7 @@ const handlePurveywms=()=>{
   <div className='valuedelivered-thirddiv-purveydeconsolidation'>
     <img src={improvedorderaccuracy} alt="" />
     <h6>Built in Quality control </h6>
-    <p>The PURVEY WMS cross-docking function includes built-in quality control checks to ensure accuracy and integrity of the goods being processed. Any discrepancies or issues are immediately flagged for resolution, reducing the risk of errors and customer dissatisfaction</p>
+    <p>The PURVEY WMS cross-docking function includes built-in  to ensure accuracy and integrity of the goods being processed. Any discrepancies or issues are immediately flagged for resolution, reducing the risk of errors and customer dissatisfaction</p>
   </div>
 
 </div>
@@ -255,7 +256,7 @@ const handlePurveywms=()=>{
 </div>
   </div>
 
-
+<Footer/>
     </div>
   )
 }

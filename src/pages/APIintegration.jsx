@@ -7,6 +7,7 @@ import improveresouceutilisation from '../Assets/Improveresourceutilisation.svg'
 import efficiency from '../Assets/Efficiency.svg'
 import improvedorderaccuracy from '../Assets/improvedorderaccuracy.svg'
 import { useNavigate } from "react-router-dom";
+import Footer from '../components/Footer'
 
 function APIintegration() {
   const navigate=useNavigate()
@@ -47,9 +48,9 @@ const handlePurveywms=()=>{
     <div>
       <div style={{height:"40vh"}}>
  <div className='starting-picklistgeneration'>
-    <h1 className="gradient-text">Seamless API Integration for 
+    <h1 className="gradient-text mt-3">Seamless API Integration for 
 
-    <br /></h1>
+    </h1>
     <h3 className="gradient-text">Enhanced Connectivity and Performance</h3>
 
     <div className='aboutpage-subtitle'>
@@ -148,19 +149,19 @@ PURVEY WMS offers a standardized and configurable Quality Assurance process that
   <div className='valuedelivered-firstdiv-apiintegration'>
     <img src={improveresouceutilisation} alt="" />
     <h6>Sorting and Allocating Individual Items</h6>
-    <p >The Quality Assurance feature allows you to define detailed inspection criteria for each product, including physical attributes, functional tests, packaging checks, and more. This ensures that every item undergoes thorough inspection before it is shipped, guaranteeing the highest quality and customer satisfaction. </p>
+    <p >The Quality Assurance feature allows you to define detailed inspection criteria for each product, including physical attributes, functional tests, packaging checks, and more. This ensures that every item undergoes thorough inspection before it is shipped. </p>
   </div>
   <div className='valuedelivered-seconddiv-apiintegration'>
     <img src={efficiency} alt="" />
     <h6>Real-Time Visibility into the Quality Status </h6>
-    <p>With our PURVEY WMS, you gain real-time visibility into the quality status of your inventory. You can track and monitor quality checkpoints, identify potential issues, and take proactive measures to resolve them, ensuring that only compliant and high-quality products are dispatched.
+    <p>With our PURVEY WMS, you gain real-time visibility into the quality status of your inventory. You can track and monitor quality checkpoints, identify potential issues, and take proactive measures to resolve them, ensuring that only compliant .
 
 </p>
   </div>
   <div className='valuedelivered-thirddiv-apiintegration'>
     <img src={improvedorderaccuracy} alt="" />
     <h6>Generates Automated Quality Alerts </h6>
-    <p>PURVEY WMS generates automated quality alerts whenever a deviation or non-conformance is detected during the inspection process. This enables timely corrective actions, reducing the risk of shipping defective or substandard products and maintaining your reputation for delivering superior quality.</p>
+    <p>PURVEY WMS generates automated quality alerts whenever a deviation or non-conformance is detected during the inspection process. This enables timely  actions, reducing the risk of shipping defective or substandard products and maintaining your superior quality.</p>
   </div>
   <div className='valuedelivered-firstdiv-apiintegration'>
     <img src={improveresouceutilisation} alt="" />
@@ -247,6 +248,8 @@ PURVEY WMS offers a standardized and configurable Quality Assurance process that
   </div>
 
 
+
+<Footer/>
     </div>
   )
 }

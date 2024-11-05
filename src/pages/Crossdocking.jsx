@@ -4,10 +4,11 @@ import purvey_apora_black from '../Assets/purvey_apora_black.png'
 import Chart2 from './Chart2'
 import multichannelintegration from '../Assets/work3.jpg'
 import improveresouceutilisation from '../Assets/Improveresourceutilisation.svg'
-import scalabilityandflexibility from '../Assets/scalabilityandflexibility.svg'
+// import scalabilityandflexibility from '../Assets/scalabilityandflexibility.svg'
 import efficiency from '../Assets/Efficiency.svg'
 import improvedorderaccuracy from '../Assets/improvedorderaccuracy.svg'
 import { useNavigate } from "react-router-dom";
+import Footer from '../components/Footer'
 
 function Crossdocking() {
   const navigate=useNavigate()
@@ -146,24 +147,24 @@ const handlePurveywms=()=>{
   <div className='valuedelivered-firstdiv-crossdocking'>
     <img src={improveresouceutilisation} alt="" />
     <h6>Automated Processing</h6>
-    <p >The PURVEY WMS cross-docking function automates the entire cross-docking process, from sorting and consolidation to outbound shipping. This eliminates the need for manual intervention, which can significantly reduce processing time.</p>
+    <p >The PURVEY WMS cross-docking function automates the entire cross-docking process,  sorting and consolidation to outbound shipping. This eliminates  intervention, which can significantly reduce time.</p>
   </div>
   <div className='valuedelivered-seconddiv-crossdocking'>
     <img src={efficiency} alt="" />
     <h6>Hybrid Web and Mobile App Solutions </h6>
-    <p>The PURVEY WMS cross-docking function provides real-time visibility into the status of all cross-docked orders. This allows businesses to track shipments, monitor progress, and receive instant notifications on order fulfilment milestones.
+    <p>The PURVEY WMS cross-docking function provides real-time visibility  all cross-docked orders. This allows businesses to track shipments, monitor progress, order fulfilment milestones.
 
 </p>
   </div>
   <div className='valuedelivered-thirddiv-crossdocking'>
     <img src={improvedorderaccuracy} alt="" />
     <h6>Built in Quality control </h6>
-    <p>The PURVEY WMS cross-docking function includes built-in quality control checks to ensure accuracy and integrity of the goods being processed. Any discrepancies or issues are immediately flagged for resolution, reducing the risk of errors and customer dissatisfaction</p>
+    <p>The PURVEY WMS cross-docking function  and integrity of the goods being processed. Any discrepancies  are immediately flagged for resolution, reducing the risk of errors and customer dissatisfaction</p>
   </div>
   <div className='valuedelivered-thirddiv-crossdocking'>
     <img src={improvedorderaccuracy} alt="" />
     <h6>Data Driven Decision Making </h6>
-    <p>The PURVEY WMS cross-docking function provides businesses with insights into order processing times, dock utilization, carrier performance, and overall efficiency. This information can be used to identify areas for improvement and make data-driven decisions that can help improve order fulfilment efficiency.</p>
+    <p>The PURVEY WMS cross-docking function provides businesses with insights into order processing times, dock utilization, carrier performance, and overall efficiency.</p>
   </div>
 </div>
 <br />
@@ -217,6 +218,9 @@ const handlePurveywms=()=>{
 </div>
   </div>
 
+
+
+<Footer/>
 
     </div>
   )

@@ -218,7 +218,7 @@ const Productwarehousemanagementsystem = () => {
                 ];
 
                 return (
-                  <div
+                  <div  style={{overflow:"hidden"}}
                     key={i}
                     className="WhatWeDo_whatWeDoWrap isScrollView"
                     data-scroll={true}
@@ -230,7 +230,7 @@ const Productwarehousemanagementsystem = () => {
                       <div className="WhatWeDo_boxContent">
                         <ul>
                           <li>
-                            <p>{descriptions[i]}</p>
+                            <p style={{fontSize:"14px",width:"500px"}}>{descriptions[i]}</p>
                           </li>
                         </ul>
                       </div>

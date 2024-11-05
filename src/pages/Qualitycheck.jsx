@@ -7,6 +7,7 @@ import improveresouceutilisation from '../Assets/Improveresourceutilisation.svg'
 import efficiency from '../Assets/Efficiency.svg'
 import improvedorderaccuracy from '../Assets/improvedorderaccuracy.svg'
 import { useNavigate } from "react-router-dom";
+import Footer from '../components/Footer'
 
 function Qualitycheck() {
   const navigate=useNavigate()
@@ -148,24 +149,24 @@ PURVEY WMS offers a standardized and configurable Quality Assurance process that
   <div className='valuedelivered-firstdiv-qualitycheck'>
     <img src={improveresouceutilisation} alt="" />
     <h6>Detailed Inspection Criteria</h6>
-    <p >The Quality Assurance feature allows you to define detailed inspection criteria for each product, including physical attributes, functional tests, packaging checks, and more. This ensures that every item undergoes thorough inspection before it is shipped, guaranteeing the highest quality and customer satisfaction. </p>
+    <p >The Quality Assurance feature inspection including physical attributes, functional tests, packaging checks, and more. This ensures that every item undergoes thorough inspection before it is shipped, guaranteeing the highest quality and customer satisfaction. </p>
   </div>
   <div className='valuedelivered-seconddiv-qualitycheck'>
     <img src={efficiency} alt="" />
     <h6>Real-Time Visibility into the Quality Status </h6>
-    <p>With our PURVEY WMS, you gain real-time visibility into the quality status of your inventory. You can track and monitor quality checkpoints, identify potential issues, and take proactive measures to resolve them, ensuring that only compliant and high-quality products are dispatched.
+    <p>With our PURVEY WMS, you gain real-time visibility into the quality status of your inventory. .
 
 </p>
   </div>
   <div className='valuedelivered-thirddiv-qualitycheck'>
     <img src={improvedorderaccuracy} alt="" />
     <h6>Generates Automated Quality Alerts </h6>
-    <p>PURVEY WMS generates automated quality alerts whenever a deviation or non-conformance is detected during the inspection process. This enables timely corrective actions, reducing the risk of shipping defective or substandard products and maintaining your reputation for delivering superior quality.</p>
+    <p>PURVEY WMS generates automated quality alerts whenever a deviation or non-conformance is detected during the inspection process. This enables timely corrective actions.</p>
   </div>
   <div className='valuedelivered-firstdiv-qualitycheck'>
     <img src={improveresouceutilisation} alt="" />
     <h6>Seamless Integration</h6>
-    <p >Our Quality Assurance module seamlessly integrates with various testing equipment, such as scales, scanners, and measuring devices. This ensures accurate measurements and efficient data capture during the inspection process, reducing manual errors and improving efficiency. </p>
+    <p >Our Quality Assurance module seamlessly integrates with various testing equipment, such as scales,devices. This ensures accurate measurements and efficient data capture during the inspection process, reducing manual errors and improving efficiency. </p>
   </div>
 </div>
 
@@ -246,7 +247,7 @@ PURVEY WMS offers a standardized and configurable Quality Assurance process that
 </div>
   </div>
 
-
+<Footer/>
     </div>
   )
 }

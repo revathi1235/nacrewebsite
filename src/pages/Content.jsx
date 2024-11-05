@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import {Row,Col ,Container} from 'react-bootstrap'
 import { Helmet } from 'react-helmet'; // Import Helmet
-
+import Footer from '../components/Footer'
 import './newdesigndemo.css'
 import Deconsolidation from './Deconsolidation'
 import AporaHomepage from './AporaHomepage'
@@ -130,7 +130,9 @@ function Content() {
     <Deconsolidation/>
     <AporaHomepage/>
     <IndustriesServe/>
-
+<div className='res-footer'>
+<Footer/>
+</div>
     </div>
   )
 }

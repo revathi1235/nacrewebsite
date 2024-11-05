@@ -8,6 +8,7 @@ import efficiency from '../Assets/Efficiency.svg'
 import './commoncss.css'
 import improvedorderaccuracy from '../Assets/improvedorderaccuracy.svg'
 import { useNavigate } from "react-router-dom";
+import Footer from '../components/Footer'
 
 function Repackingandputaway() {
   const navigate=useNavigate()
@@ -148,24 +149,24 @@ const handlePurveywms=()=>{
   <div className='valuedelivered-firstdiv-repackingandputaway'>
     <img src={improveresouceutilisation} alt="" />
     <h6>Streamlining Operations and Maximizing Storage Capacity</h6>
-    <p >Say goodbye to wasted storage space and cumbersome searching. Our WMS software's Repacking & Put Away module utilizes intelligent algorithms to allocate the optimal storage location for repacked items. This maximizes your warehouse's storage capacity and minimizes retrieval times, streamlining your operations.</p>
+    <p >Say goodbye to wasted storage space and cumbersome searching. Our WMS software's Repacking & Put Away module utilizes intelligent algorithms to  the optimal storage location for  items. </p>
   </div>
   <div className='valuedelivered-seconddiv-repackingandputaway'>
     <img src={efficiency} alt="" />
     <h6>Organized Storage & Tracking Efficiency </h6>
-    <p>Take control of your storage areas with our comprehensive location management capabilities. Define and manage location hierarchies, assign specific storage areas for repacked items, and easily track the availability and capacity of each location. No more time wasted on searching for misplaced items.
+    <p>Take control of your storage areas with our comprehensive location management capabilities. Define and manage location hierarchies, assign specific storage areas for repacked items,and capacity of each location. 
 
 </p>
   </div>
   <div className='valuedelivered-thirddiv-repackingandputaway'>
     <img src={improvedorderaccuracy} alt="" />
     <h6>Intelligent Put-Away Strategies </h6>
-    <p>Our software offers a range of intelligent put-away strategies customized to your unique needs. Whether you prefer random put-away, zone-based storage, or dynamic slotting, our module seamlessly implements these strategies. Improve your operational efficiency by leveraging the optimal method for your warehouse.</p>
+    <p>Our software offers a range of intelligent put-away strategies customized to your unique needs. Whether you prefer random put-away, zone-based storage, or dynamic slotting, our module seamlessly implements these strategies. Improve your operational efficiency.</p>
   </div>
   <div className='valuedelivered-firstdiv-repackingandputaway'>
     <img src={improveresouceutilisation} alt="" />
     <h6>Comprehensive Tasks Assignment</h6>
-    <p >Empower your warehouse operators with clear instructions through our task assignment feature. Our Repacking & Put Away module generates comprehensive tasks displayed on handheld devices or management terminals. These tasks outline the repacked items to be stored and their designated locations, ensuring accuracy and productivity.</p>
+    <p >Empower your warehouse operators with clear instructions through our task assignment feature. Our Repacking & Put Away module generates comprehensive tasks displayed on handheld devices or management terminals. </p>
   </div>
 </div>
 
@@ -237,7 +238,7 @@ const handlePurveywms=()=>{
            
             <h2 class="service_heading-repackingandputaway">Increased Flexibility</h2>
             <p class="service_para-repackingandputaway">
-            Repacking & Put Away in WMS provides the flexibility to break down or combine products as needed, allowing you to adapt to changing customer demands and market trends. This flexibility enables you to efficiently manage product variations, bundle products for promotions, or customize orders based on customer preferences.
+            Repacking & Put Away in WMS provides the flexibility to break down or combine products as needed, allowing you to adapt to changing customer demands and market trends. This flexibility enables you to efficiently manage  or customize orders based on customer preferences.
             </p>
         </div>
       
@@ -248,6 +249,8 @@ const handlePurveywms=()=>{
 </div>
   </div>
 
+
+<Footer/>
 
     </div>
   )
